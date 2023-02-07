@@ -116,7 +116,7 @@ footer{
     ;
     text-decoration: none;
     color: white;
-    cursor: e-resize;
+   
 }
 footer a{
     text-decoration: none;
@@ -129,3 +129,16 @@ ul{
    columns: 2;
    list-style-position: inside;
 }
+#voltar{
+    background-color: #060adfbb;
+    border-radius: 0px;
+    font-family: var(--font-android);
+    min-width: 320px;
+    max-width: 1080px;
+    border-radius: 0px ;
+    margin: auto;
+    text-align: center
+    ;
+    text-decoration: none;
+    color: white;
+  }
