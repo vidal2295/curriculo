@@ -1,0 +1,38 @@
+@charset 'utf-8';
+
+body{
+    text-align: justify;
+    text-decoration: none;
+    background-color: rgba(18, 18, 131, 0.623);
+    margin: auto;
+    border: 10 px, 10px, 10px;
+    padding: 5%;
+    
+    
+}
+nav{
+    
+    text-align: justify;
+
+}
+h1{
+    
+    background-image: linear-gradient( to bottom, rgba(153, 0, 0, 0.712), rgba(189, 2, 2, 0.719),) ;
+    text-align: center;
+    margin: 10px 10px;
+}
+img{
+    image-rendering: auto;
+    margin: 10px
+}
+p{
+
+}
+h2{
+        text-align: center;
+}
+ul{
+    padding: none
+    ;
+   
+}
