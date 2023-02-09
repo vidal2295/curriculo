@@ -40,14 +40,14 @@ p{
     margin: 15px 10px 15px;
     text-align: justify;
 }
-header {
-font-family: var(--font-android);
-text-align: center;
-background-image: linear-gradient(to bottom, rgb(3, 0, 201), rgba(21, 48, 199, 0.692)) ;
-margin: auto;
-padding: 10px 100px 30px 100px;
-font-size: 16px;
-text-shadow: 4px 4px 4px rgba(0, 0, 0, 0.521);
+    header {
+    font-family: var(--font-android);
+    text-align: center;
+    background-image: linear-gradient(to bottom, rgb(3, 0, 201), rgba(21, 48, 199, 0.692)) ;
+    margin: auto;
+    padding: 10px 100px 30px 100px;
+    font-size: 16px;
+    text-shadow: 4px 4px 4px rgba(0, 0, 0, 0.521);
 
 
 }
@@ -67,17 +67,34 @@ h1{
 }
 h2{
     margin: 15px 10px 15px;
+    color: white;
 }
-nav{
-    background-color: rgba(20, 47, 201, 0.788);
+
+div{
+    background-image: url(test5.jpg);
+    background-position: left top; 
+    background-repeat: no-repeat;
+    position: 100%;
     padding: 20px;
     font-family: var(--font-android);
     margin: auto;
     text-shadow: 4px 4px 4px rgba(0, 0, 0, 0.521);
-    text-align: center;
-    
-
-    
+    text-align: justify;
+    padding: auto;
+        
+}
+#roda{
+        background-image: linear-gradient(to right, rgb(0, 25, 252), rgb(243, 192, 192)) ;
+}
+nav{
+    padding: 20px;
+    font-family: var(--font-android);
+    width: auto;
+    margin: auto;
+    text-shadow: 4px 4px 4px rgba(0, 0, 0, 0.521);
+    text-align: justify;
+    padding: auto;
+        
 }
 nav > a{
     color: rgb(255, 255, 255);
@@ -85,7 +102,7 @@ nav > a{
     font-weight: bold;
     transition-duration: 0.5s;
     border-radius: 10px;
-    padding: 10px;/* espaçamento das letras*/
+    padding: 0px;/* espaçamento das letras*/
 }
 nav> a:hover{
 
@@ -93,7 +110,7 @@ nav> a:hover{
     color: white;
 }
 main{
-    margin: 15px 10px 15px
+    margin: 15px 10px 15px;
     text-align: justify;
     min-width: 300px;
     max-width: 1080px;
@@ -132,12 +149,12 @@ main > img.pequena{
 }
 aside h3{
     
-    font-family: var(--font-android);
+        font-family: var(--font-android);
     background-color: white;
     margin: 15px 10px 15px;
 }
 footer{
-    background-color: #060adfbb;
+    background-image: linear-gradient(to left,rgb(0, 25, 252), rgb(243, 192, 192)) ;
     border-radius: 0px;
     font-family: var(--font-android);
     min-width: 320px;
