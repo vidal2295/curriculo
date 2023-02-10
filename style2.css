@@ -128,7 +128,7 @@ ul{
    list-style-position: inside;
 }
 #voltar{
-    background-color: #060adfbb;
+    background-color: #817878bb;
     border-radius: 0px;
     font-family: var(--font-android);
     min-width: 320px;
@@ -137,6 +137,7 @@ ul{
     margin: auto;
     text-align: center
     ;
+    
     text-decoration: none;
     color: white;
   }
