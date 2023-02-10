@@ -35,7 +35,10 @@ body{
     text-align: justify;
     border: 10px 10px 10px 10px;
     font-family: var(--font-padrao)  ;
-    background-image: linear-gradient( rgb(253, 173, 173), rgb(102, 18, 18));
+    background-image: linear-gradient( rgb(67, 255, 198), rgb(0, 0, 0));
+    background-size: 100%;
+    background-repeat: no-repeat;
+    height: 69vi;
 }
 p{
     margin: 15px 10px 15px;
