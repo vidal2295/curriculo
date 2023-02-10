@@ -29,10 +29,13 @@ iframe{
     width: 100%;
 }
 body{
+    height: 100vh;
     border-radius: 0px 40px 0px 40px;
     text-align: justify;
     font-family: var(--font-padrao)  ;
     background-image: linear-gradient(to top, rgb(0, 0, 255), rgb(160, 162, 250));
+    background-size: 100%;
+    background-repeat: no-repeat;
 }
 p{
     margin: 15px 10px 15px;

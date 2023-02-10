@@ -29,12 +29,13 @@ iframe{
     width: 100%;
 }
 body{
+    
     margin: auto;
     border-radius: 10px;
     text-align: justify;
     border: 10px 10px 10px 10px;
     font-family: var(--font-padrao)  ;
-    background-color: rgba(209, 116, 93, 0.788);
+    background-image: linear-gradient( rgb(253, 173, 173), rgb(102, 18, 18));
 }
 p{
     margin: 15px 10px 15px;
@@ -71,7 +72,8 @@ h2{
 }
 
 div{
-    background-image: url(test5.jpg);
+    background-image: url(test3.jpg);
+    background-size: 100% 100%;
     background-position: left top; 
     background-repeat: no-repeat;
     position: 100%;
@@ -122,12 +124,12 @@ main a{
     text-decoration: none;
     font-weight: bold;
     color: #ffffff;
-    background-color: rgba(20, 20, 153, 0.582);
+    background-image: linear-gradient(to bottom, rgb(34, 47, 235), rgba(74, 129, 248, 0.849) );
     
     }
 main a:hover{
     text-decoration: underline;
-    color: rgb(20, 20, 209);
+    color: rgba(0, 0, 0, 0.856);
 }
 
 main h1{
